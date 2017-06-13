@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 body{
-	background-color: #0D0D0D;
+	background: url('astro.gif');
 	margin: 0;
 	padding: 0;
 }
@@ -102,4 +102,69 @@ body{
 	left: 0;
 	z-index: 10;
 	opacity: 0;
+}
+
+.promotion{
+	position: absolute;
+	display: table;
+	top: 45%;
+	left: 60%;
+	width: 250px;
+	height: 75px;
+	font-size: 35px;
+	color: white;
+	border: 2px solid white;
+	text-align: center;
+}
+
+.promotion a{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	opacity: 0;
+}
+
+.promotion p{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.promotion:hover{
+	color: black;
+	background-color: white;
+}
+
+.wedding{
+	display: table;
+	position: absolute;
+	top: 57%;
+	left: 60%;
+	width: 250px;
+	height: 75px;
+	font-size: 35px;
+	color: white;
+	border: 2px solid white;
+	text-align: center;
+}
+.wedding:hover{
+	color: black;
+	background-color: white;
+}
+
+.wedding a{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	opacity: 0;
+}
+
+.wedding p{
+	display: table-cell;
+	vertical-align: middle;
 }
