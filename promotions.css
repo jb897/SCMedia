@@ -1,0 +1,95 @@
+body{
+	background-color: white;
+	padding: 0;
+	margin: 0;
+}
+
+.header{
+	position: absolute;
+	background-color: grey;
+	line-height: 200px;
+	height: 250px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	z-index: -100;
+}
+
+.header a{
+	text-decoration: none;
+}
+
+.header span{
+	display: inline-block;
+	vertical-align: middle;
+	color: black;
+	font-size: 20pt;
+	margin: 5px;
+	left: 0%;
+}
+
+.header h1{
+	position: absolute;
+	font-size: 45pt;
+	color: black;
+	top: 15%;
+	left: 32%;
+	font-style: oblique;
+}
+
+.logo{
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+}
+
+.pricing{
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	width: 300px;
+	height: 100%;
+	font-size: 17pt;
+	color: grey;
+}
+
+.pricing p{
+	margin: 5px;
+}
+
+.main{
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	width: 700px;
+	height: 100%;
+	text-align: center;
+}
+
+.description{
+	position: absolute;
+	top: 0;
+	padding: 0;
+	vertical-align: top;
+}
+
+#description-head{
+	display: inline;
+	font-size: 28pt;
+	color: #E67E22;
+}
+
+#description-body{
+	font-size: 20pt;
+	color: grey;
+}
+
+hr{
+	position: relative;
+	background: grey;
+	z-index: 100;
+	top: 275px;
+}
