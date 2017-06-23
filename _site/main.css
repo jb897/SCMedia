@@ -16,7 +16,7 @@ body{
     bottom:0;
     overflow: hidden;
     z-index: -100;
-    background: url(earth.mp4);
+    background: url(img/earth.mp4);
 }
 
 #bgvid{
@@ -52,7 +52,7 @@ body{
 	width: 50px;
 	height: 50px;
 	border-radius: 100%;
-	background: url(facebook.png);
+	background: url(img/facebook.png);
 }
 #facebook a{
 	position: absolute;
@@ -71,7 +71,7 @@ body{
 	width: 50px;
 	height: 50px;
 	border-radius: 100%;
-	background: url(youtube.jpg);
+	background: url(img/youtube.jpg);
 }
 
 #youtube a{
@@ -91,7 +91,7 @@ body{
 	width: 50px;
 	height: 50px;
 	border-radius: 100%;
-	background: url(instagram.jpg);
+	background: url(img/instagram.jpg);
 }
 
 #instagram a{
@@ -111,7 +111,7 @@ body{
 	width: 50px;
 	height: 50px;
 	border-radius: 100%;
-	background: url(gmail.png);
+	background: url(img/gmail.png);
 }
 
 #email a{
