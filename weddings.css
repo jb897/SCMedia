@@ -71,6 +71,7 @@ body{
 
 .pricing p{
 	margin: 5px;
+	color: black;
 }
 
 .main{
@@ -92,17 +93,17 @@ body{
 #description-head{
 	display: inline;
 	font-size: 28pt;
-	color: #E67E22;
+	color: #B22222;
 }
 
 #description-body{
 	font-size: 20pt;
-	color: grey;
+	color: black;
 }
 
 hr{
 	position: relative;
-	background: grey;
+	border-color: black;
 	z-index: 100;
 	top: 275px;
 }

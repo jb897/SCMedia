@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
 html{
 	min-height: 100%;
 	margin: 0;
@@ -5,7 +6,7 @@ html{
 }
 
 body{
-	background-color: white;
+	background-color: black;
 	padding: 0;
 	margin: 0;
 	height: 100%;
@@ -14,7 +15,7 @@ body{
 
 .header{
 	position: absolute;
-	background-color: grey;
+	background-color: white;
 	line-height: 200px;
 	height: 350px;
 	width: 100%;
@@ -92,7 +93,7 @@ body{
 #description-head{
 	display: inline;
 	font-size: 28pt;
-	color: #E67E22;
+	color: #2E8B57;
 }
 
 #description-body{
@@ -111,7 +112,8 @@ body{
 	position: relative;
 	font-size: 25pt;
 	top: 5%;
-	color: red;
+	font-family: 'Shadows Into Light', cursive;
+	color: #2E8B57;
 }
 
 .hype{
@@ -125,7 +127,8 @@ body{
 	position: relative;
 	font-size: 25pt;
 	top: 5%;
-	color: red;
+	font-family: 'Shadows Into Light', cursive;
+	color: #2E8B57;
 }
 
 .iceland{
@@ -139,7 +142,8 @@ body{
 	position: relative;
 	font-size: 25pt;
 	top: 5%;
-	color: red;
+	font-family: 'Shadows Into Light', cursive;
+	color: #2E8B57;
 }
 
 hr{
@@ -158,7 +162,7 @@ hr{
 	width: 100%;
 	height: 200px;
 	overflow: hidden;
-	background-color: grey;
+	background-color: white;
 	vertical-align: center;
 	text-align: center;
 }
