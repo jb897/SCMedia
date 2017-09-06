@@ -1,0 +1,92 @@
+html, body {
+  height: 100%;
+  top: 0;
+  background-color: #898989;
+}
+
+.navbar-default{
+	background-color: #ff666a;
+	border-color: #ff666a;
+}
+#nav-container{
+	height: 300px;
+	width: 100%;
+}
+.jumbotron{
+	position: absolute;
+	background: transparent;
+	font-family: 'Abril Fatface', cursive;
+	height: 100px;
+	top: 15%;
+	left: 30%;
+	color: #898989;
+}
+
+.navbar-header a{
+	font-size: 30px;
+}
+
+.navbar-nav li{
+	font-size: 25px;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: #898989;
+}
+
+.navbar-default .navbar-brand:hover{
+	color: #898989;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: black;
+}
+
+.navbar-default .navbar-brand{
+	color: black;
+}
+
+
+#body-descrip h1{
+	font-size: 50px;
+	font-family: 'Frijole', cursive;
+	color: #ff666a;
+}
+
+#body-descrip p{
+	color: black;
+	font-size: 25px;
+}
+
+.thumbnail{
+	background: transparent;
+	border: transparent;
+}
+#img{
+	height: 490px;
+	width: 720px;
+	min-width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.col-lg-6{
+	text-align: center;
+}
+
+.footer,
+.push {
+  height: 200px;
+}
+
+.footer{
+	text-align: center;
+	background-color: #ff666a;
+	font-size: 30px;
+	color: black;
+}
+
+#footer-container{
+	height: 100%;
+	padding: 50px;
+}

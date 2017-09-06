@@ -1,179 +1,178 @@
-@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
-html{
-	min-height: 100%;
-	margin: 0;
-	padding: 0;
+html, body {
+  height: 100%;
+  top: 0;
+  background-color: white;
 }
 
-body{
-	background-color: black;
-	padding: 0;
-	margin: 0;
-	height: 100%;
-	min-height: 100%;
+.navbar-default{
+	background: url('img/drone.jpg') center top no-repeat;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-color: grey;
 }
-
-.header{
-	position: absolute;
-	background-color: white;
-	line-height: 200px;
-	height: 350px;
+#nav-container{
+	height: 500px;
 	width: 100%;
-	margin: 0;
-	padding: 0;
-	z-index: -100;
+}
+.jumbotron{
+	position: absolute;
+	background: transparent;
+	font-family: 'Abril Fatface', cursive;
+	text-align: center;
+	height: 100px;
+	top: 25%;
+	left: 47%;
+	color: white;
 }
 
-.header a{
-	text-decoration: none;
+.navbar-header a{
+	font-size: 30px;
 }
 
-.header span{
-	display: inline-block;
-	vertical-align: middle;
+.navbar-nav li{
+	font-size: 25px;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: #898989;
+}
+
+.navbar-default .navbar-brand:hover{
+	color: #898989;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: white;
+}
+
+.navbar-default .navbar-brand{
+	color: white;
+}
+
+#content{
+	margin-top: 50px;
+	width: 205px;
+	text-align: center;
+}
+
+#content p{
 	color: black;
-	font-size: 20pt;
-	margin: 5px;
-	left: 0%;
+	font-size: 20px;
 }
 
-.links{
-	position: absolute;
-	top: 65%;
+.row{
+	width: 100%;
 }
 
-.header h1{
-	position: absolute;
-	font-size: 45pt;
+#content-right{
+	float: right;
+	text-align: center;
+}
+
+#content-right h1{
+	color: #FE5B35;
+	font-size: 35px;
+}
+
+#content-right span{
+	font-size: 25px;
 	color: black;
-	top: 15%;
-	left: 32%;
-	font-style: oblique;
 }
 
-.logo{
-	position: absolute;
-	right: 20px;
-	top: 10px;
-	height: 200px;
-	width: 200px;
-	border-radius: 100%;
+.footer,
+.push {
+  height: 200px;
 }
 
-.pricing{
-	position: absolute;
-	top: 50%;
-	left: 10%;
-	width: 300px;
+.footer{
+	text-align: center;
+	background-color: #D3D3D3;
+	color: black;
+}
+
+#footer-container{
 	height: 100%;
-	font-size: 17pt;
-	color: grey;
-}
-
-.pricing p{
-	margin: 5px;
-}
-
-.main{
-	position: absolute;
-	top: 50%;
-	left: 40%;
-	width: 700px;
-	height: 100%;
-	text-align: center;
-}
-
-.description{
-	position: absolute;
-	top: 0;
-	padding: 0;
-	vertical-align: top;
-}
-
-#description-head{
-	display: inline;
-	font-size: 28pt;
-	color: #2E8B57;
-}
-
-#description-body{
-	font-size: 20pt;
-	color: grey;
-}
-
-.prom{
-	position: absolute;
-	top: 85%;
-	left: 40%;
-	text-align: center;
-}
-
-.prom p{
-	position: relative;
-	font-size: 25pt;
-	top: 5%;
-	font-family: 'Shadows Into Light', cursive;
-	color: #2E8B57;
-}
-
-.hype{
-	position: absolute;
-	top: 160%;
-	left: 40%;
-	text-align: center;
-}
-
-.hype p{
-	position: relative;
-	font-size: 25pt;
-	top: 5%;
-	font-family: 'Shadows Into Light', cursive;
-	color: #2E8B57;
-}
-
-.iceland{
-	position: absolute;
-	top: 235%;
-	left: 40%;
-	text-align: center;
-}
-
-.iceland p{
-	position: relative;
-	font-size: 25pt;
-	top: 5%;
-	font-family: 'Shadows Into Light', cursive;
-	color: #2E8B57;
+	padding: 80px;
+	font-size: 20px;
 }
 
 hr{
-	position: relative;
-	background: grey;
+	border-color: black;
+	background: black;
+	width: 100%;
 	z-index: 100;
-	top: 275px;
+}
+.videos{
+	position: relative;
+	float: right;
+	text-align: center;
+	height: 1250px;
+	width: 600px;
+	padding-left: 10px;
 }
 
-.bottom{
-	display: table;
+.videos p{
+	color: #FE5B35;
+	font-size: 30px;
+	position: relative;
+	margin-top: -10%;
+}
+
+.prom{
+	position: relative;
+	float: right;
+	margin-top: 10%;
+	width: 100%;
+	max-height: 300px;
+	right: 0px;
+}
+
+/*#prom-vid{
 	position: absolute;
+	top: 0;
 	bottom: 0;
 	left: 0;
-	top: 2550px;
 	width: 100%;
-	height: 200px;
-	overflow: hidden;
-	background-color: white;
-	vertical-align: center;
-	text-align: center;
+	height: 100%;
+	border: 0
+}*/
+
+.drumline{
+	position: relative;
+	margin-top: 20%;
+	float: right;
+	width: 100%;
+	max-height: 300px;
+	max-width: 600px;
+	right: 0px;
 }
 
-.bottom-text{
-	display: table-cell;
-	vertical-align: middle;
-	font-size: 18pt;
-	color: black;
+/*#drum-vid{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0
+}
+*/
+.iceland{
+	position: relative;
+	margin-top: 20%;
+	float: right;
+	width: 100%;
+	max-height: 300px;
+	right: 0px;
 }
 
-.bottom-text span{
-	padding: 3px;
-}
+/*
+#iceland-vid{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0
+}*/

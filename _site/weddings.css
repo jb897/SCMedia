@@ -1,134 +1,104 @@
-html{
-	min-height: 100%;
-	margin: 0;
-	padding: 0;
+html, body {
+  height: 100%;
+  top: 0;
+  background-color: white;
 }
 
-body{
-	background-color: white;
-	padding: 0;
-	margin: 0;
-	height: 100%;
-	min-height: 100%;
+.navbar-default{
+	background: url('img/wedding.jpg') center bottom no-repeat;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-color: transparent;
+	height: 500px;
 }
-
-.header{
-	position: absolute;
-	background: url('img/wedding.jpg');
-	line-height: 200px;
-	height: 350px;
+#nav-container{
+	height: 300px;
 	width: 100%;
-	margin: 0;
-	padding: 0;
-	z-index: -100;
 }
 
-.header a{
-	text-decoration: none;
-}
-
-.header span{
-	display: inline-block;
-	vertical-align: middle;
-	color: white;
-	font-size: 20pt;
-	margin: 5px;
-	left: 0%;
-}
-
-.links{
-	position: absolute;
-	top: 65%;
-}
-
-.header h1{
-	position: absolute;
-	font-size: 45pt;
-	color: white;
-	top: 15%;
-	left: 42%;
-	font-style: oblique;
-}
-
-.logo{
-	position: absolute;
-	right: 20px;
-	top: 10px;
-	height: 200px;
-	width: 200px;
-	border-radius: 100%;
-}
-
-.pricing{
-	position: absolute;
-	top: 50%;
-	left: 10%;
-	width: 300px;
-	height: 100%;
-	font-size: 17pt;
-	color: grey;
-}
-
-.pricing p{
-	margin: 5px;
-	color: black;
-}
-
-.main{
-	position: absolute;
-	top: 50%;
-	left: 40%;
-	width: 700px;
-	height: 100%;
-	text-align: center;
-}
-
-.description{
-	position: absolute;
-	top: 0;
-	padding: 0;
-	vertical-align: top;
-}
-
-#description-head{
-	display: inline;
-	font-size: 28pt;
-	color: #B22222;
-}
-
-#description-body{
-	font-size: 20pt;
-	color: black;
-}
-
-hr{
-	position: relative;
-	border-color: black;
-	z-index: 100;
-	top: 275px;
-}
-
-.bottom{
-	display: table;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	top: 2000px;
+.jumbotron{
 	width: 100%;
-	height: 200px;
-	overflow: hidden;
-	background-color: black;
-	vertical-align: center;
-	text-align: center;
-}
-
-.bottom-text{
-	display: table-cell;
-	vertical-align: middle;
-	font-size: 18pt;
+	height: 100%;
+	text-align: middle;
+	background-color: transparent;
 	color: white;
-}
-
-.bottom-text span{
 	padding: 3px;
+}
+
+.jumbotron h1{
+	margin-bottom: 80%;
+}
+
+.navbar-header a{
+	font-size: 30px;
+}
+
+.navbar-nav li{
+	font-size: 25px;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: #202221;
+}
+
+.navbar-default .navbar-brand:hover{
+	color: #202221;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: white;
+}
+
+.navbar-default .navbar-brand{
+	color: white;
+}
+
+#content{
+	margin-top: 50px;
+}
+
+#content a{
+	line-height: 200%;
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+}
+
+#content a:hover{
+	color: #BDAAA4
+}
+
+.row{
+	width: 100%;
+}
+
+#content-right{
+	text-align: center;
+}
+
+#content-right h1{
+	color: #98FB98;
+	font-size: 40px;
+}
+
+#content-right span{
+	font-size: 25px;
+	color: black;
+}
+
+.footer,
+.push {
+  height: 200px;
+}
+
+.footer{
+	text-align: center;
+	background-color: #D3D3D3;
+	color: black;
+}
+
+#footer-container{
+	height: 100%;
+	padding: 80px;
+	font-size: 20px;
 }
