@@ -79,23 +79,6 @@ html, body {
 	color: black;
 }
 
-.footer,
-.push {
-  height: 200px;
-}
-
-.footer{
-	text-align: center;
-	background-color: #D3D3D3;
-	color: black;
-}
-
-#footer-container{
-	height: 100%;
-	padding: 80px;
-	font-size: 20px;
-}
-
 hr{
 	border-color: black;
 	background: black;
@@ -109,6 +92,13 @@ hr{
 	height: 1250px;
 	width: 600px;
 	padding-left: 10px;
+}
+
+@media screen and (max-width: 479px) {
+    .videos{
+    	height: 850px;
+        width: 350px;
+    }
 }
 
 .videos p{
@@ -176,3 +166,26 @@ hr{
 	height: 100%;
 	border: 0
 }*/
+
+.footer,
+.push {
+  height: 200px;
+}
+
+.footer{
+	text-align: center;
+	background-color: #D3D3D3;
+	color: black;
+}
+
+#footer-container{
+	height: 100%;
+	padding: 80px;
+	font-size: 20px;
+}
+
+@media screen and (max-width: 479px) {
+    #footer-container{
+    	font-size: 15pt;
+    }
+}
