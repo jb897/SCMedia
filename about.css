@@ -2,20 +2,18 @@ html, body {
   height: 100%;
   top: 0;
   background-color: #898989;
+  font-family: "Helvetica", "Arial", sans-serif;
 }
-
 .navbar-default{
-	background-color: #ff666a;
-	border-color: #ff666a;
-}
-#nav-container{
-	height: 300px;
-	width: 100%;
+	background: url(https://images.unsplash.com/photo-1424223022789-26fd8f34bba2?dpr=1&auto=compress,format&fit=crop&w=750&h=&q=80&cs=tinysrgb&crop=) center center no-repeat;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: none;
+	height: 500px;
 }
 .jumbotron{
 	position: absolute;
 	background: transparent;
-	font-family: 'Abril Fatface', cursive;
 	height: 100px;
 	top: 15%;
 	left: 30%;
@@ -31,11 +29,11 @@ html, body {
 }
 
 .navbar-default .navbar-nav>li>a:hover{
-	color: #898989;
+	color: #202221;
 }
 
 .navbar-default .navbar-brand:hover{
-	color: #898989;
+	color: #202221;
 }
 
 .navbar-default .navbar-nav>li>a{

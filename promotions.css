@@ -2,6 +2,8 @@ html, body {
   height: 100%;
   top: 0;
   background-color: white;
+  margin: 0 auto;
+  font-family: "Helvetica", "Arial", sans-serif;
 }
 
 .navbar-default{
@@ -17,7 +19,6 @@ html, body {
 .jumbotron{
 	position: absolute;
 	background: transparent;
-	font-family: 'Abril Fatface', cursive;
 	text-align: center;
 	height: 100px;
 	top: 25%;
@@ -34,11 +35,11 @@ html, body {
 }
 
 .navbar-default .navbar-nav>li>a:hover{
-	color: #898989;
+	color: #202221;
 }
 
 .navbar-default .navbar-brand:hover{
-	color: #898989;
+	color: #202221
 }
 
 .navbar-default .navbar-nav>li>a{
@@ -85,7 +86,7 @@ hr{
 	width: 100%;
 	z-index: 100;
 }
-.videos{
+#videos{
 	position: relative;
 	float: right;
 	text-align: center;
@@ -94,14 +95,15 @@ hr{
 	padding-left: 10px;
 }
 
-@media screen and (max-width: 479px) {
-    .videos{
-    	height: 850px;
-        width: 350px;
+@media screen and (max-width: 800px) {
+    #videos{
+    	height: 900px;
+        width: 400px;
+        margin-right: 7%;
     }
 }
 
-.videos p{
+#videos p{
 	color: #FE5B35;
 	font-size: 30px;
 	position: relative;

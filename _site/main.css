@@ -15,7 +15,6 @@ body{
     bottom:0;
     overflow: hidden;
     z-index: -100;
-    background: url(img/earth.mp4);
 }
  
 #bgvid{
@@ -26,7 +25,7 @@ body{
 img{
 	position: absolute;
 	left: 2%;
-	top: -10%;
+	top: 5%;
 	max-height: 300px;
 	max-width: 300px;
 }

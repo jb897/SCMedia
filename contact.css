@@ -1,39 +1,45 @@
 html, body {
   height: 100%;
   top: 0;
-  background-color: #db9833;
+  margin: 0;
+  padding: 0;
+  background-color: #606060;
 }
 
 .navbar-default{
-	background-color: #7bc5ff;
-	border-color: #7bc5ff;
+	background: url('https://images.unsplash.com/photo-1496814795703-e5b242546673?dpr=1&auto=compress,format&fit=crop&w=1500&h=&q=80&cs=tinysrgb&crop=') center top no-repeat;
+	width: 100%;
+	margin-right: 0;
+	border: none;
 	height: 500px;
 }
-#nav-container{
-	height: 300px;
-	width: 100%;
 
+#nav-container{
+	height: 500px;
+	width: 100%;
 }
+
 .jumbotron{
 	width: 100%;
 	background: transparent;
 	height: 100px;
 	top: 40%;
+	color: white;
 }
 
 .jumbotron h1{
 	position: relative;
 	top: 45%;
-	left: 35%;
-	color: #db9833;
+	left: 30%;
+	max-width: 495px;
 	font-family: 'Sedgwick Ave', cursive;
 }
 
 .jumbotron h2{
 	position: relative;
 	top: 55%;
-	left: 45%;
-	color: #db9833;
+	left: 40%;
+	max-width: 300px;
 	font-family: 'Sedgwick Ave', cursive;
 }
 
@@ -46,26 +52,27 @@ html, body {
 }
 
 .navbar-default .navbar-nav>li>a:hover{
-	color: #0c69b2;
+	color: #202221;
 }
 
 .navbar-default .navbar-brand:hover{
-	color: #0c69b2;
+	color: #202221;
 }
 
 .navbar-default .navbar-nav>li>a{
-	color: #db9833;
+	color: white;
 }
 
 .navbar-default .navbar-brand{
-	color: #db9833;
+	color: white;
 }
 
 #body-descrip h2{
 	position: relative;
 	font-size: 35px;
 	top: 30%;
-	color: #3e4444;
+	color: black;
+	text-align: center;
 }
 
 #body-descrip p{
@@ -73,12 +80,9 @@ html, body {
 	top: 40%;
 	color: black;
 	font-size: 25px;
+	text-align: center;
 }
 
-.thumbnail{
-	background: transparent;
-	border: transparent;
-}
 #img{
 	height: 490px;
 	width: 720px;
@@ -93,23 +97,10 @@ html, body {
 .content {
   padding: 0;
   min-height: 100%;
-  margin: 0 auto -150px;
-}
-.footer,
-.push {
-  height: 150px;
 }
 
-.footer{
+#icons{
 	text-align: center;
-	background-color: #7bc5ff;
-	font-size: 30px;
-	color: #db9833;
-}
-
-#footer-container{
-	height: 100%;
-	padding: 50px;
 }
 
 #facebook{
