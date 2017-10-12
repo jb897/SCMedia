@@ -52,7 +52,8 @@ html, body {
 
 #content{
 	margin-top: 50px;
-	width: 205px;
+	margin-left: 25px;
+	width: 250px;
 	text-align: center;
 }
 
@@ -95,10 +96,10 @@ hr{
 	padding-left: 10px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
     #videos{
     	height: 900px;
-        width: 400px;
+        width: 300px;
         margin-right: 7%;
     }
 }

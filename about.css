@@ -11,12 +11,17 @@ html, body {
 	border: none;
 	height: 500px;
 }
+
+#nav-container{
+	height: 500px;
+	width: 100%;
+}
 .jumbotron{
 	position: absolute;
 	background: transparent;
 	height: 100px;
-	top: 15%;
-	left: 30%;
+	top: 25%;
+	left: 37%;
 	color: #898989;
 }
 
@@ -37,11 +42,11 @@ html, body {
 }
 
 .navbar-default .navbar-nav>li>a{
-	color: black;
+	color: #898989;
 }
 
 .navbar-default .navbar-brand{
-	color: black;
+	color: #898989;
 }
 
 
