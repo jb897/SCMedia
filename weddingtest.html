@@ -2,13 +2,14 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Weddings</title>	
-	<meta charset = "utf=8"/>
-	<link rel="stylesheet" href="bootstrap.min.css">
+	<title>Promotions</title>	
+	<meta charset = "utf=8" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Frijole|Abril+Fatface" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="weddingtest.css">
 </head>
 <body>
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default" id="headerNav">
 		<div class="container" id="nav-container">
 			<div class="navbar-header">
 				<a href="index.html" class="navbar-brand">PhantomLand Media</a>
@@ -28,7 +29,7 @@
 			       		<a href="promotions.html">Promotions</a>
 			     	</li>
 			      	<li>
-			        	<a href="weddings.html">Weddings</a>
+			        	<a href="weddingtest.html">Weddings</a>
 			      	</li>
 			      	<li>
 			        	<a href="contact.html">Contact</a>
@@ -36,34 +37,30 @@
 			    </ul>
 			</div>
 			<div class="jumbotron">
-				<h1>Make Your World Move</h1>
+				<h1>What Makes Us Move</h1>
 			</div>
 		</div>
 	</nav>
-	<div class="container">
-		<button type="button" class="btn btn-info" id="toggle_button" data-toggle="collapse" data-target="#toggle_links">See More</button>
-  		<div id="toggle_links" class="collapse">
-			<a href="weddings.html">Weddings</a>
+	<div class="wrapper">
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="content-right">
+			<h1>Bring your wedding to life!</h1>
 			<br>
-			<a href="#">Packages</a>
-		</div>
-	</div>
-	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="content-right">
-		<h1>Bring your wedding to life!</h1>
-		<br>
-		<span>Preserve your wedding memories in a way you will never forget.</span>
-		<br>
-		<div class="videos">
-			<div class="dan_and_kirsten">
+			<p>Preserve your wedding memories in a way you will never forget.</p>
+			<br>
+			<hr>
+			<div class="videos">
 				<p>Dan and Kirsten's Wedding</p>
-				<div class="embed-responsive embed-responsive-16by9" id="prom_vid">
+				<div class="embed-responsive embed-responsive-16by9">
 	  				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HnaAeQ9fUzQ" frameborder="0" allowfullscreen>
 	  				</iframe>
 				</div>
 			</div>
 		</div>
+		<div class="container">
+			Wedding Packages will go here
+		</div>
+		<div class="push"></div>
 	</div>
-	<div class="push"></div>
 	<footer class="footer">
   		<div class="container" id="footer-container">
   			<div id="footer-links" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -79,15 +76,17 @@
 				<div id ="email">
 					<a href="mailto:phantomlandmedia@gmail.com"></a>
 				</div>
+				<p>PhantomLand Media, LLC</p>
+				<p>Harrisburg, PA</p>
+				<p>717-695-1182</p>
+				<p>phantomlandmedia@gmail.com</p>
 			</div>
-  			<span>PhantomLand Media, LLC</span>
-			<span>Harrisburg, PA</span>
-			<span>717-695-1182</span>
-			<span>phantomlandmedia@gmail.com</span>
 		</div>
 	</footer>
+
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
 </body>
+</html>

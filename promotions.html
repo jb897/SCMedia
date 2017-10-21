@@ -9,8 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="promotions.css">
 </head>
 <body>
-
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default" id="headerNav">
 		<div class="container" id="nav-container">
 			<div class="navbar-header">
 				<a href="index.html" class="navbar-brand">PhantomLand Media</a>
@@ -42,51 +41,62 @@
 			</div>
 		</div>
 	</nav>
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-1">
-				<div id="content">
-					<p>Contact Greg St.Clair for business endeaors at (717)695-1182</p>
+	<div class="wrapper">
+		<p class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="content-left">
+			Contact Greg St.Clair for business endeavors at (717)695-1182
+		</p>
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="content-right">
+			<h1>Whether it's commercial or casual, PhantomLand Media can bring your ideas to life.</h1>
+			<br>
+			<span>Some stuff</span>
+			<br>
+			<hr>
+			<div class="videos">
+				<p>CD Prom</p>
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GHUrTCTYym0" frameborder="0" allowfullscreen>
+					</iframe>
 				</div>
-			</div>
-			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="content-right">
-				<h1>Whether it's commercial or casual, PhantomLand Media can bring your ideas to life.</h1>
-				<br>
-				<span>Some stuff</span>
-				<br>
-				<hr>
+				<p>CD Drumline</p>
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NBWIQc8T-Xw" frameborder="0" allowfullscreen>
+					</iframe>
+				</div>
+				<p>Welcome to Iceland</p>
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PMzyXdjeo94" frameborder="0" allowfullscreen>
+					</iframe>
+				</div>
 			</div>
 		</div>
-		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="videos">
-			<div class="prom">
-				<p>CD Prom</p>
-				<div class="embed-responsive embed-responsive-16by9" id="prom-vid">
-		  			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GHUrTCTYym0" frameborder="0" allowfullscreen></iframe>
-				</div>
-			</div>
-			<div class="drumline">
-				<p>CD DrumLine</p>
-				<div class="embed-responsive embed-responsive-16by9" id="drum-vid">
-		  			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NBWIQc8T-Xw" frameborder="0" allowfullscreen></iframe>
-				</div>
-			</div>
-			<div class="iceland">
-				<p>Iceland</p>
-				<div class="embed-responsive embed-responsive-16by9" id="iceland-vid">
-		  			<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PMzyXdjeo94" frameborder="0" allowfullscreen></iframe>
-				</div>
-			</div>
+		<div class="container">
+			<!-- Not sure why this causes a sticky footer, but needed for the format of the page-->
 		</div>
 		<div class="push"></div>
 	</div>
 	<footer class="footer">
   		<div class="container" id="footer-container">
-  			<span>PhantomLand Media, LLC</span>
-			<span>Harrisburg, PA</span>
-			<span>717-695-1182</span>
-			<span>phantomlandmedia@gmail.com</span>
+  			<div id="footer-links" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<div id ="facebook">
+					<a href="https://www.facebook.com/PhantomLand-Media-LLC-418287681891035/?hc_ref=SEARCH&fref=nf" target="_blank"></a>
+				</div>
+				<div id="youtube">
+					<a href="https://www.youtube.com/channel/UCea2VORP4TMnpVCVrBg4p-Q" target="_blank"></a>
+				</div>
+				<div id="instagram">
+					<a href="https://www.instagram.com/phantomlandmedia/" target="_blank"></a>
+				</div>
+				<div id ="email">
+					<a href="mailto:phantomlandmedia@gmail.com"></a>
+				</div>
+	  			<p>PhantomLand Media, LLC</p>
+				<p>Harrisburg, PA</p>
+				<p>717-695-1182</p>
+				<p>phantomlandmedia@gmail.com</p>
+			</div>
 		</div>
 	</footer>
+
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>

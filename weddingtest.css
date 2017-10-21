@@ -1,32 +1,29 @@
 html, body {
-  height: 100%;
-  top: 0;
-  background-color: white;
+	height: 100%;
+	top: 0;
+	margin: 0 auto;
+	font-family: "Helvetica", "Arial", sans-serif;
 }
 
-.navbar-default{
+#headerNav{
 	background: url('img/wedding.jpg') center bottom no-repeat;
 	background-size: cover;
 	background-repeat: no-repeat;
-	border-color: transparent;
-	height: 500px;
+	border-color: grey;
 }
+
 #nav-container{
-	height: 300px;
+	height: 500px;
 	width: 100%;
 }
-
 .jumbotron{
-	width: 100%;
-	height: 100%;
-	text-align: middle;
-	background-color: transparent;
+	position: absolute;
+	background: transparent;
+	text-align: center;
+	height: 100px;
+	top: 25%;
+	left: 47%;
 	color: white;
-	padding: 3px;
-}
-
-.jumbotron h1{
-	margin-bottom: 80%;
 }
 
 .navbar-header a{
@@ -38,11 +35,11 @@ html, body {
 }
 
 .navbar-default .navbar-nav>li>a:hover{
-	color: #202221;
+	color: #6996AD;
 }
 
 .navbar-default .navbar-brand:hover{
-	color: #202221;
+	color: #6996AD;
 }
 
 .navbar-default .navbar-nav>li>a{
@@ -53,90 +50,68 @@ html, body {
 	color: white;
 }
 
-#content{
-	margin-top: 50px;
+@media screen and (max-width: 991px){
+	#content-right{
+		padding-left: 10%;
+		padding-right: 10%;
+	}
 }
-
-#content a{
-	line-height: 200%;
-	text-decoration: none;
-	color: black;
-	font-size: 25px;
-}
-
-#content a:hover{
-	color: #BDAAA4
-}
-
-#toggle_button{
-	background-color: grey;
-	border-color: grey;
-	margin-top: 25px;
-}
-
-#toggle_links a{
-	font-size: 15pt;
-	color: grey;
-}
-
 #content-right{
 	float: right;
 	text-align: center;
-	height: 800px;
+	height: 100%;
 }
 
 #content-right h1{
-	color: #98FB98;
-	font-size: 40px;
-}
-
-#content-right span{
-	font-size: 25px;
-	color: black;
+	color: #6996AD;
+	font-size: 20px;
 }
 
 #content-right p{
-	color: #98FB98;
+	color: #6996AD;
 	font-size: 20pt;
 }
 
+hr{
+	border-color: black;
+	background: black;
+	width: 100%;
+	z-index: 100;
+}
+
 .videos{
-	height: 500px;
 	width: 100%;
 	margin-top: 30px;
+	padding-bottom: 5%;
 }
 
+.wrapper{
+	padding: 20px;
+  	min-height: 100%;
+  	margin: 0 auto -250px;
+}
+
+.footer,
 .push {
-  height: 700px;
+  height: 250px;
 }
 
-.footer{
-	height: 300px;
+.footer{ 
 	text-align: center;
 	background-color: #D3D3D3;
 	color: black;
+  	line-height: 20px;
+  	padding: 0 20px;
 }
 
 #footer-container{
 	height: 100%;
-	padding: 80px;
-	font-size: 20pt;
+	padding: 5%;
+	font-size: 12pt;
 }
 
 #footer-links{
 	width: 100%;
-}
-
-@media screen and (max-width: 479px) {
-    #footer-container{
-        font-size: 12pt;
-    }
-}
-
-@media screen and (max-width: 479px) {
-    #footer-links{
-        width: 300px;
-    }
 }
 
 #facebook{
