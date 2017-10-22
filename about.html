@@ -9,8 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="about.css">
 </head>
 <body>
-
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default" id="headerNav">
 		<div class="container" id="nav-container">
 			<div class="navbar-header">
 				<a href="index.html" class="navbar-brand">PhantomLand Media</a>
@@ -38,33 +37,43 @@
 			    </ul>
 			</div>
 			<div class="jumbotron">
-				<h1>About Our Movement</h1>
+				<h1>What Makes Us Move</h1>
 			</div>
 		</div>
 	</nav>
-	<div id="main">
-		<div class="container" id="body-descrip">
-			<div class="row">
-				<div class="col-lg-6">
-					<div class="thumbnail">
-						<img src="img/logo_g-b.png" id="img" alt="founder">
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<h1>PhantomLand Media</h1>
-					<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-				</div>
-			</div>
+	<div class="wrapper">
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="content-left">
+			<img src="img/greg.jpg" id="img" alt="founder">
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="content-right">
+			<h1>Greg St. Clair</h1>
+			<p>Greg St. Clair grew up in Harrsiburg, Pennsylvania. He attended Central Dauphin High School, where he was part of marching band and the swim team. He studied accounting at Stevenson University with a minor in film. After working on a project for a short film, he realized his love was videography, and decided to pursue his dream. He was a video production intern at PSECU, where he focused on creating, developing, shooting, and editing video content. He now runs PhantomLand Media, where he uses drones to produce videos with a style that is unique to his company.</p>
+		</div>
+		<div class="container">
+			<!-- Not sure why this causes a sticky footer, but needed for page format-->
 		</div>
 		<div class="push"></div>
 	</div>
-
 	<footer class="footer">
   		<div class="container" id="footer-container">
-  			<span>PhantomLand Media, LLC</span>
-			<span>Harrisburg, PA</span>
-			<span>717-695-1182</span>
-			<span>phantomlandmedia@gmail.com</span>
+  			<div id="footer-links" class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<div id ="facebook">
+					<a href="https://www.facebook.com/PhantomLand-Media-LLC-418287681891035/?hc_ref=SEARCH&fref=nf" target="_blank"></a>
+				</div>
+				<div id="youtube">
+					<a href="https://www.youtube.com/channel/UCea2VORP4TMnpVCVrBg4p-Q" target="_blank"></a>
+				</div>
+				<div id="instagram">
+					<a href="https://www.instagram.com/phantomlandmedia/" target="_blank"></a>
+				</div>
+				<div id ="email">
+					<a href="mailto:phantomlandmedia@gmail.com"></a>
+				</div>
+	  			<p>PhantomLand Media, LLC</p>
+				<p>Harrisburg, PA</p>
+				<p>717-695-1182</p>
+				<p>phantomlandmedia@gmail.com</p>
+			</div>
 		</div>
 	</footer>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>

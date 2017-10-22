@@ -88,17 +88,17 @@ hr{
 .wrapper{
 	padding: 20px;
   	min-height: 100%;
-  	margin: 0 auto -250px;
+  	margin: 0 auto -300px;
 }
 
 .footer,
 .push {
-  height: 250px;
+  height: 300px;
 }
 
 .footer{ 
 	text-align: center;
-	background-color: #D3D3D3;
+	background-color: red;
 	color: black;
   	line-height: 20px;
   	padding: 0 20px;
